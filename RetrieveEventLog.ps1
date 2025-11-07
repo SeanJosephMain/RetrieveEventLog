@@ -17,7 +17,6 @@ Specifies the end time for the event log data retrieval. Events after this time 
 .EXAMPLE
 # Retrieve event log data from a remote server (example usage):
 .\RetrieveEventLog.ps1 -RemoteServer "ServerName" -StartTime "2023-01-01T00:00:00" -EndTime "2023-01-02T00:00:00"
-.\RetrieveEventLog.ps1 BP-DP0800S-0001 -StartTime "2024-08-16 01:00" -EndTime "2024-08-16 23:00"
 
 This example retrieves event log entries from "ServerName" between January 1, 2023, and January 2, 2023, and exports the formatted results to a CSV file named "eventLogFile.csv" in the script's directory.
 
